@@ -1,0 +1,268 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Head_Containor{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_container a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: 20px;
+    color: gray;
+    /* font-weight: bold; */
+}
+
+.right_containor{
+    font-family: Arial;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right_containor a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 18px;
+    color: gray;
+    /* font-weight: bold; */
+}
+
+.right_containor img:hover{
+    height: 30px;
+    width: 30px;
+    padding-top:2px ;
+    background-color: rgb(252, 249, 249);
+    border-radius: 50px;
+}
+
+.right_containor button{
+    height: 40px;
+    width: 70px;
+    background-color: rgba(0, 0, 255, 0.923);
+    border-radius: 53px;
+    border: none;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    margin-right: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+
+.right_containor a:hover{
+    text-decoration: underline;
+}
+
+.right_containor button:hover{
+background-color: greenyellow;
+color: black;
+}
+
+.google_title{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    margin-left: 550px;
+    margin-top: 30px;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.alpha1{
+    color: #2196f3;
+}
+.alpha2{
+    color: #f37e21;
+}
+.alpha3{
+    color:   #f4bc17;
+}
+.alpha4{
+    color:  #2196f3;
+}
+
+.alpha5{
+    color:  #34a853;
+}
+.alpha6{
+    color:#e94336;
+}
+
+.searchBox{
+    width: 50%;
+    height: 50px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 200px;
+    border: .5px solid rgb(221,216,216);
+    box-shadow: 1px 1px 5px rgb(253,252,252);
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.searchicon{
+    width: 25px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.searchfield input[type='search']{
+    min-width: 550px;
+    height: 46px;
+    background-color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    font-size: 20px;
+    cursor: blink;
+}
+
+.mickimg{
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.lenseimg{
+    width: 25px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+.searchBox{
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.searchBox:hover{
+    color: white;
+}
+
+.btnfield{
+    height: 55px;
+    width: 290px;
+    /* background-color: aqua; */
+    margin-left: 560px;
+    margin-top: -189px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.button-1{
+    height: 40px;
+    width: 200px;
+    font-family: arial;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    /* justify-content: space-between; */
+}
+
+.button-2{
+    height: 40px;
+    width: 200px;
+    font-family: arial;
+    font-size: 15px;
+    /* justify-content: space-between; */
+    margin: 20px 5px;
+    border: none;
+    outline: none;
+}
+
+.button-1:hover{
+    height: 40px;
+    width: 200px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    text-decoration:unset;
+}
+
+.button-2:hover{
+    height: 40px;
+    width: 200px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    text-decoration:unset;
+
+}
+
+.language{
+    margin-left: 450px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    list-style: none;
+    font-size: 14px;
+    font-family: arial;
+    
+}
+.language li a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.language li{
+    text-decoration: none;
+    color: blue;
+}
+
+.language li:hover{
+    text-decoration-line: underline;
+}
+
+.fooeter{
+    background-color: #f2f2f2;
+    margin-top: 223px;
+    font-family: arial;
+    height: 45px;
+    font-size: 20px;
+}
+
+p{
+    margin-left: 30px;
+    padding-top: 12px;
+
+}
+
+.fooeter2{
+    background-color: #f2f2f2;
+    font-family: arial;
+    height: 45px;
+    font-size: 15px;
+    display: flex;
+}
+
+
+.d1{
+    padding-left: 15px;
+    margin: 10px;
+    font-size: 15px;
+}
